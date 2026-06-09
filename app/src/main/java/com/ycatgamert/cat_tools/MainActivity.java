@@ -1,4 +1,4 @@
-package com.ycatgamert.cattools;
+package com.ycatgamert.cat_tools;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -11,7 +11,7 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-import com.ycatgamert.cattools.R;
+import com.ycatgamert.cat_tools.R;
 
 public class MainActivity extends AppCompatActivity {
 

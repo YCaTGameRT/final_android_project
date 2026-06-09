@@ -1,4 +1,4 @@
-package com.ycatgamert.cattools;
+package com.ycatgamert.cat_tools;
 
 import android.content.ContentValues;
 import android.content.Context;

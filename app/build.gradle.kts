@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace = "com.ycatgamert.cattools"
+    namespace = "com.ycatgamert.cat_tools"
     compileSdk {
         version = release(36) {
             minorApiLevel = 1
@@ -11,7 +11,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.ycatgamert.cattools"
+        applicationId = "com.ycatgamert.cat_tools"
         minSdk = 19
         targetSdk = 36
         versionCode = 1

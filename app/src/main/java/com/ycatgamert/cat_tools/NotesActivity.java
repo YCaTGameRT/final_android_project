@@ -1,4 +1,4 @@
-package com.ycatgamert.cattools;
+package com.ycatgamert.cat_tools;
 
 import android.os.Bundle;
 import android.view.View;
@@ -9,7 +9,7 @@ import android.widget.ListView;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.ycatgamert.cattools.R;
+import com.ycatgamert.cat_tools.R;
 
 import java.util.ArrayList;
 
