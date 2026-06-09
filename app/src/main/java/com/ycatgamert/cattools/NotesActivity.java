@@ -1,4 +1,4 @@
-package com.ycatgamert.finalproject;
+package com.ycatgamert.cattools;
 
 import android.os.Bundle;
 import android.view.View;
@@ -8,6 +8,9 @@ import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.ycatgamert.cattools.R;
+
 import java.util.ArrayList;
 
 public class NotesActivity extends AppCompatActivity {

@@ -1,4 +1,4 @@
-package com.ycatgamert.finalproject;
+package com.ycatgamert.cattools;
 
 import org.junit.Test;
 
