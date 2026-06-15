@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#121212"
+android:orientation="vertical"
+android:padding="16dp">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginBottom="24dp"
+    android:fontFamily="@font/patrick_hand"
+    android:text="Disney Characters"
+    android:textColor="#FFF600"
+    android:textSize="36sp" />
+
+<androidx.appcompat.widget.AppCompatButton
+    android:id="@+id/btnGetCharacter"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:layout_marginBottom="24dp"
+    android:background="#FFF600"
+    android:fontFamily="@font/patrick_hand"
+    android:text="Получить персонажа"
+    android:textColor="#000000"
+    android:textSize="24sp" />
+
+<TextView
+    android:id="@+id/characterName"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp"
+    android:fontFamily="@font/patrick_hand"
+    android:text="Имя: -"
+    android:textColor="#FFF600"
+    android:textSize="28sp"
+    android:gravity="center" />
+
+<TextView
+    android:id="@+id/characterFilms"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fontFamily="@font/patrick_hand"
+    android:text="Фильмы: -"
+    android:textColor="#FFFFFF"
+    android:textSize="20sp" />
+</LinearLayout>
