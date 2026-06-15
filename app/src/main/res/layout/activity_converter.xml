@@ -1,0 +1,101 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://android.com"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#121212"
+android:orientation="vertical"
+android:padding="16dp">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginBottom="16dp"
+    android:fontFamily="@font/patrick_hand"
+    android:text="Converter"
+    android:textColor="#FFF600"
+    android:textSize="36sp" />
+
+<com.google.android.material.tabs.TabLayout
+    android:id="@+id/tabLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="24dp"
+    android:background="#1E1E1E"
+    app:tabBackground="#1E1E1E"
+    app:tabIndicatorColor="#FFF600"
+    app:tabSelectedTextColor="#FFF600"
+    app:tabTextColor="#FFFFFF" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:fontFamily="@font/patrick_hand"
+    android:text="Перевести из:"
+    android:textColor="#FFFFFF"
+    android:textSize="18sp"
+    android:layout_marginBottom="4dp"/>
+
+<Spinner
+    android:id="@+id/spinnerFrom"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="#1E1E1E"
+    android:layout_marginBottom="16dp" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:fontFamily="@font/patrick_hand"
+    android:text="Перевести в:"
+    android:textColor="#FFFFFF"
+    android:textSize="18sp"
+    android:layout_marginBottom="4dp"/>
+
+<Spinner
+    android:id="@+id/spinnerTo"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="#1E1E1E"
+    android:layout_marginBottom="16dp" />
+
+<EditText
+    android:id="@+id/inputValue"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="#1E1E1E"
+    android:fontFamily="@font/patrick_hand"
+    android:hint="Введите значение..."
+    android:inputType="numberDecimal"
+    android:padding="12dp"
+    android:textColor="#FFFFFF"
+    android:textColorHint="#888888"
+    android:textSize="22sp" />
+
+<androidx.appcompat.widget.AppCompatButton
+    android:id="@+id/btnConvert"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:layout_marginTop="16dp"
+    android:layout_marginBottom="24dp"
+    android:background="#FFF600"
+    android:fontFamily="@font/patrick_hand"
+    android:text="Конвертировать"
+    android:textColor="#000000"
+    android:textSize="24sp" />
+
+<TextView
+    android:id="@+id/resultTextView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:fontFamily="@font/patrick_hand"
+    android:text="Результат: 0"
+    android:textColor="#FFFFFF"
+    android:textSize="28sp" />
+</LinearLayout>
+
+
+
+
+

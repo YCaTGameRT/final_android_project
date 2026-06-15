@@ -25,6 +25,7 @@
             android:resource="@array/preloaded_fonts" />
         <activity android:name=".NotesActivity" android:exported="false" />
         <activity android:name=".CalculatorActivity" android:exported="false" />
+        <activity android:name=".ConverterActivity" android:exported="false" />
     </application>
 
 </manifest>
